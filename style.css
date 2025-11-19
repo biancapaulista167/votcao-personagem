@@ -1,0 +1,66 @@
+/* ----- Estilo geral da página ----- */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background: #fafafa;            /* Fundo cinza bem claro */
+    margin: 0;
+    padding: 20px;                  /* Espaçamento interno */
+    text-align: center;             /* Centraliza o texto */
+}
+
+/* Limita a largura de main, header e footer para deixar tudo centralizado e organizado */
+main, header, footer {
+    max-width: 600px;
+    margin: auto; /* Centraliza no meio da tela */
+}
+
+/* ----- Estilo do formulário ----- */
+select, button {
+    padding: 10px;             /* Aumenta o tamanho interno */
+    margin-top: 10px;          /* Espaço acima */
+    width: 80%;                /* Largura padrão */
+    max-width: 300px;          /* Largura máxima */
+    border: 1px solid #aaa;    /* Borda cinza */
+    border-radius: 5px;        /* Cantos arredondados */
+}
+
+/* Efeito quando passa o mouse */
+select:hover, button:hover {
+    background: #ac5ba8; /* Fundo muda para cinza claro */
+}
+
+button {
+    background: #ff86f9;        /* Botão branco */
+    font-weight: bold;       /* Texto em negrito */
+}
+
+/* Mensagem de erro */
+.erro {
+    color: red;              /* Vermelho */
+    margin-top: 10px;        /* Espaço acima */
+}
+
+/* ----- Lista de ranking ----- */
+#lista-ranking {
+    list-style: none;  /* Remove as bolinhas da lista */
+    padding: 0;
+}
+
+#lista-ranking li {
+    background: rgb(255, 226, 249);       /* Cada item tem fundo branco */
+    margin: 8px 0;           /* Espaço entre os itens */
+    padding: 12px;
+    border-radius: 8px;      /* Bordas arredondadas */
+    border: 1px solid #ccc;  /* Borda cinza */
+}
+
+/* Item que está em primeiro lugar */
+.lider {
+    background: #fffa9c; /* Amarelo claro de destaque */
+    font-weight: bold;   /* Negrito */
+}
+
+/* ----- Rodapé ----- */
+footer {
+    margin-top: 30px;
+    font-size: 14px;   /* Fonte menor */
+}

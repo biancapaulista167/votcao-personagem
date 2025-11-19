@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Deixa o site responsivo em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Votação de Personagens</title>
+
+    <!-- Conecta o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Título principal do sistema -->
+        <h1>Sistema de Votação de Personagens</h1>  
+        <!-- Você pediu "faça documentarios", mas aqui coloquei apenas o comentário para não quebrar o layout -->
+    </header>
+
+    <main>
+
+        <section>
+            <!-- Texto explicando a regra -->
+            <p>Cada aluno poderá votar escolhendo um personagem da lista.</p>
+
+            <!-- Rótulo da caixa de seleção -->
+            <label>Escolha um personagem:</label>
+
+            <!-- Lista de personagens -->
+            <select id="personagem">
+                <option value="">Selecione...</option>
+                <option value="Mario">Mario</option>
+                <option value="Luigi">Luigi</option>
+                <option value="Peach">Peach</option>
+                <option value="Bowser">Bowser</option>
+            </select>
+
+            <!-- Botão que envia o voto -->
+            <button id="votar">Votar</button>
+
+            <!-- Div onde aparecerá a mensagem de erro -->
+            <div class="erro"></div>
+        </section>
+
+        <section id="ranking">
+            <!-- Título da lista de votos -->
+            <h2>Ranking</h2>
+
+            <!-- Lista que o JavaScript vai atualizar -->
+            <ul id="lista-ranking"></ul>
+        </section>
+        
+    </main>
+
+    <footer>
+        <!-- Área com nome do aluno e data automática -->
+        <p>Aluno: Bianca — Data: <span id="data"></span></p>
+    </footer>
+
+    <!-- Imagens dos personagens com legenda -->
+    <img src="imagens/Mario.jpeg.jpg" width="150" height="180">
+    <p>Mario</p>
+
+    <img src="imagens/Luigi.jpeg.jpg" width="150" height="180">
+    <p>Luigi</p>
+
+    <img src="imagens/Peach.jpeg.jpg" width="150" height="180">
+    <p>Peach</p>
+
+    <img src="imagens/Bowser.jpeg.jpg" width="150" height="180">
+    <p>Bowser</p>
+
+    <!-- Script que controla a votação (mas o nome está errado!) -->
+    <!-- O correto é script.js -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
