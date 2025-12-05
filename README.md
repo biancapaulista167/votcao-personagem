@@ -78,7 +78,7 @@ Abrir e rodar o projeto no Visual Studio Code.]
 
 ## Imagem do projeto
 
-![Tela do sistema de votação](./imagens/)
+![Tela do sistema de votação](./imagens/etapas/votacao.png)
 
 ## Como clonar o projeto
 No terminal do VS Code digite:
